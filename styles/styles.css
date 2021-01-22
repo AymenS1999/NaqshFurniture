@@ -58,8 +58,9 @@ header .nav li a{
 	text-decoration: none;
 	color: #fff;
 	font-weight: 300;
+	display: block;
 }
-header .nav li a:hover{
+header .nav li .active, header .nav li a:hover{
 	font-weight: bold;
 	letter-spacing: 1px;
 	transition: 0.5s;
@@ -76,6 +77,39 @@ header .toggle{
 	cursor: pointer;
 }
 
+.sub-menu{
+	display: block;
+	float: left;
+	background: rgba(0,0,0,0.5);
+	min-width: 10rem;
+	position: absolute;
+	margin-top: 1.5rem;
+	margin-left: -2.5rem;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+	transition: .5s;
+	opacity: 0;
+	visibility: hidden;
+	transform: translateY(-20px);
+}
+.sub-menu-onScroll{
+	margin-top: 1rem;
+	background: #000;
+}
+
+.nav .sub-menu li{
+	margin-left: 0px;
+	text-align: center;
+}
+
+.sub-menu li a{
+	padding: 0.5rem;
+}
+
+header .nav li:hover .sub-menu{	
+	opacity: 1;
+	visibility: visible;
+	transform: translateY(0px);
+}
 
 
 /*Cover section*/
@@ -158,6 +192,7 @@ span.highlight{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap-reverse;
 }
 
 .about .content-box{
