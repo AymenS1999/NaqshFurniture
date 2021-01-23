@@ -25,14 +25,14 @@
 <body>
 	<!-- The TOP NAV BAR -->
 	<header>
-		<a href="index.html" class="logo"><h2>NAQSH</h2></a>
+		<a href="index.html" class="logo"><h2><span class="highlight">NAQSH</span></h2></a>
 		<ul class="nav">
 			<li><a href="index.html" title="">Home</a></li>
 			<li><a href="#" class="active" title="">About Us</a>
 				<ul class="sub-menu">
-					<li><a href="">Owner's Message</a></li>
-					<li><a href="">Our Vision</a></li>
-					<li><a href="">Why <span class="highlight">NAQSH</span> ?</a></li>
+					<li><a href="#owners-message">Owner's Message</a></li>
+					<li><a href="#vision">Our Vision</a></li>
+					<li><a href="#why-naqsh">Why <span class="highlight">NAQSH</span> ?</a></li>
 				</ul>
 			</li>
 			<li><a href="products.html" title="">Products</a>
@@ -46,12 +46,12 @@
 					<li><a href="products.html">Browse All <i class="fas fa-arrow-right"></i></a></li>
 				</ul>
 			</li>
-			<li><a href="#" title="">Projects</a>
+			<li><a href="projects.html" title="">Projects</a>
 				<ul class="sub-menu">
-					<li><a href="">Our Projects</a></li>
+					<li><a href="projects.html">Project Gallery</a></li>
 				</ul>
 			</li>
-			<li><a href="#" title="">Contact Us</a></li>
+			<li><a href="#contact-us" title="">Contact Us</a></li>
 		</ul>
 		<!-- <div class="toggle"><img src="images/toggle.png"></div> -->
 	</header>
@@ -66,13 +66,13 @@
 	</section>
 
 	<!-- ABOUT NAQSH section -->
-	<section class="about">
+	<section id="owners-message" class="about">
 		<div class="owner">
 			<div class="img-box">
-				<img src="images/someone_famous.png">
+				<img src="images/owner.jpg">
 			</div>
 			<div class="owner-img-title">
-				Someone Famous
+				Owner
 			</div>			
 		</div>
 		<div class="content-box">
@@ -85,7 +85,7 @@
 			</p>
 		</div>
 	</section>
-	<section class="about">
+	<section id="why-naqsh" class="about">
 		<div class="content-box">
 			<h2 class="titleText">Why <span class="highlight">NAQSH</span> ?</h2>
 			<p class="text">
@@ -105,10 +105,10 @@
 			<img class="fitBg" src="images/about_us.jpg">
 		</div>
 	</section>
-	<section class="about">
+	<section id="vision" class="about">
 		<div class="owner">
 			<div class="img-box">
-				<img style="padding-left: 5rem; height: 400px" src="images/our_vision.jpg">
+				<img src="images/our_vision.jpg">
 			</div>			
 		</div>
 		<div class="content-box">
@@ -129,6 +129,64 @@
 			</p>
 		</div>
 	</section>
+
+	<!-- Contact Us -->
+	<section id="contact-us" class="contact-us">
+		<div class="contact-us-container">
+			<div class="contact-info">
+				<div>
+					<h2>Contact Us</h2>
+					<ul class="info">
+						<li>
+							<span><i class="fas fa-map-marker-alt"></i> </span>
+							<span>Main Office : Square Tower, Al Khobar <br> Workshop : Dammam</span>
+						</li>
+						<li>
+							<span><i class="fas fa-envelope-open"></i> </span>
+							<span>info@naqsh.sa</span>
+						</li>
+						<li>
+							<span><i class="fas fa-phone"></i> </span>
+							<span>966-54-063-6263</span>
+						</li>
+					</ul>
+				</div>
+				<ul class="sci">
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+					<li><a href="#"><i class="fab fa-telegram"></i></a></li>
+				</ul>
+			</div>
+			<div class="contact-form">
+				<h2>Write to Us</h2>
+				<div class="form-box">
+					<div class="input-box w50">
+						<input type="text" name="" required>
+						<span>Your Name</span>
+					</div>
+					<div class="input-box w50">
+						<input type="text" name="" required>
+						<span>Your Email Address</span>
+					</div>
+					<div class="input-box w100">
+						<textarea type="text" name="" required></textarea>
+						<span>Write Your Message Here...</span>
+					</div>
+					<div class="input-box w100">
+						<input type="submit" name="" value="Send">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<p>Copyright © 2021 <span class="highlight">NAQSH</span> Furniture | Website Designer & Developer -  <span class="highlight">Aymen Sheikh</span></p>
+	</footer>
+	
 	<script src="index.js" type="text/javascript" charset="utf-8" async defer></script>
 </body>
 </html>
