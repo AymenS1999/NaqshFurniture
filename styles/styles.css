@@ -337,6 +337,100 @@ span.highlight{
 }
 
 
+/*Clients*/
+.client{
+	/*background: #ddd;*/
+	text-align: center;
+	padding: 2rem;
+	color: #fff;
+}
+.client h1{
+	font-size: 3rem;
+}
+
+.client p{
+	text-align: center;
+	line-height: 2;
+}
+
+.client .img-box{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 2rem;
+}
+
+.client .img-box img{
+	max-width: 250px;
+	cursor: pointer;
+	margin: 1rem;
+	height: 200px;
+	opacity: 0.7;
+}
+.client .img-box img:hover{
+	opacity: 1;
+}
+
+
+
+/*About Us Page*/
+/*Owner's Message*/
+.content .owner{
+	position: relative;
+	min-width: 50%;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+
+
+.owner .img-box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.owner .img-box img{
+	max-width: 500px;
+	height: 100%;
+}
+.owner-img-title{
+	color: #fff;
+	position: relative;
+	bottom: 6rem;
+	padding-left: 3rem;
+	letter-spacing: 2px;
+}
+
+/*Vision*/
+.text li{
+	margin-left: 2rem;
+}
+
+
+/*Contact Us*/
+.contact-us{
+	display: flex;
+	height: 100%
+	background: #000;
+	justify-content: center;
+}
+
+.contact-us::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50%;
+	background : #111;
+}
+
+.contact-us .container{
+	position: relative;
+	min-width: 1100px;
+}
+
+
 @media (max-width: 1000px){
 	header .nav{
 		display: none;
