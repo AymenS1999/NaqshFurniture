@@ -378,6 +378,121 @@ span.highlight{
 	opacity: 1;
 }
 
+/*Accomplishments*/
+section#progress{
+	margin: 0;
+	padding: 0;
+}
+.progress-container{
+	padding: 1rem;
+	background: #000;
+	position: relative;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.progress-counter{
+	color: #fff;
+	width: 100%;
+	text-align: center;
+	margin: 2rem;
+}
+
+.progress-icon-box{
+	color: #FFD700;
+	font-size: 4rem;
+}
+
+.progress-counter .counter{
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.progress-counter .counter-description{
+	font-size: 1rem;
+}
+
+
+
+/*.progress-container{
+	position: relative;
+	height: 400px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	color: #000;
+	background: #fff;
+}
+
+.progress-bar{
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	justify-content: space-between;
+	transition: 0.5s;
+	transform: translate(-50%, -50%);
+}
+
+.progress-1 .value{
+	position: absolute;
+	top: 30%;
+	left: 9%;
+}
+.progress-2 .value{
+	position: absolute;
+	top: 30%;
+	right: 15%;
+}
+
+.progress-bar h2{
+	font-size: 3rem;
+}
+
+.progress-text{
+	text-align: center;
+	font-size: 2rem;
+}
+
+.mini-progress-container{
+	position: relative;
+	height: 300px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	color: #000;
+	background: #fff;
+}
+
+.mini-progress-bar{
+	width: 100%;
+	padding: 2rem;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: 0.5s;
+	transform: translate(-50%, -50%);
+}
+
+.mini-progress-bar h2{
+	font-size: 2rem;
+}
+
+.mini-progress-text{
+	text-align: center;
+	font-size: 2rem;
+}
+*/
+
+
 /*Certification*/
 .certification{
 	position: relative;
