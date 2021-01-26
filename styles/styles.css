@@ -856,20 +856,35 @@ section#progress{
 }
 
 /*Individual Products Page*/
+.product-item{
+	background: #111;
+}
+/*.product-item::after{
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	z-index: 1;
+	background: linear-gradient(to top, #111, transparent);
+}
+*/
+
 .product-item-container{
 	position: relative;
 	width: 100%;
-	height: 100%;
-	padding: 1rem;
+	height: 400px;
 	display: flex;
+	margin: 1rem;
 	justify-content: space-between;
 }
 
 .product-item-container .box{
 	position: relative;
-	width: 600px;
-	height: 400px;
-	background: #000;
+	width: 50%;
+	height: 100%;
+	margin: 0 .5rem;
 	box-sizing: border-box;
 	overflow: hidden;
 	box-shadow: 0 5px 5px rgba(0,0,0,.8);
